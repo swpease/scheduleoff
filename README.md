@@ -30,7 +30,9 @@ Well, I've been using `pmset` quite often over the last several days, and still 
 
 `scheduleoff sleep MINUTES`
 
-where `MINUTES` is some number of minutes, e.g. `scheduleoff sleep 90`.
+where `MINUTES` is some number of minutes, e.g. `scheduleoff sleep 90`. 
+
+`MINUTES` must be greater than 0, because if it is 0, then your scheduled time will be missed by `pmset` because it will have already passed by.
 
 For any other aspect that the old scheduling UI could handle, you'll have to find some other tool, or use `pmset`. For information on how to use `pmset`, I recommend [this tutorial](https://www.macos.utah.edu/documentation/administration/pmset.html).
 
