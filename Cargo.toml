@@ -4,6 +4,11 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Scott Pease",]
 description = "Wrapper around `pmset schedule` for easy near-term sleep and shutdown time setting."
+repository = "https://github.com/swpease/scheduleoff"
+readme = "README.md"
+license = "MIT"
+categories = ["command-line-utilities"]
+keywords = ["pmset", "shutdown", "sleep"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
