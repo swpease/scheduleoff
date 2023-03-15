@@ -32,8 +32,8 @@ Pre-built binaries are available for download in the "builds" folder. I do not h
 After downloading, 
   1. Store it in whichever folder you want. It would be easiest to just store it in the folder that your Terminal opens up to by default. You can find this by opening your Terminal and typing `open .`, which will open it in Finder. 
   2. Rename the file to your liking. I suggest "scheduleoff".
-  3. To run, type `./<executable> [commands]` where `<executable>` is whatever you named that file, and see below in Use for commands.
-  4. You may need to change permissions, using `chmod 744 <executable>` in Terminal in the folder containing the file you downloaded, where `<executable>` is whatever you named that file.
+  3. You need to change permissions, using `chmod 744 <executable>` in Terminal in the folder containing the file, where `<executable>` is whatever you named that file.
+  4. To run, type `./<executable> [commands]` in Terminal in the folder containing the file, where `<executable>` is whatever you named that file, and see below in Use for commands.
   5. If you try to run it and Apple won't let you, right-click on it in Finder and click "Open".
 
 ## Use
