@@ -23,6 +23,19 @@ If you used the old UI that Apple removed, you'll remember that there is actuall
 ### Why Is It Called `scheduleoff`?
 Well, I've been using `pmset` quite often over the last several days, and still can't remember what it's name is. There seems to be a contest to remove as many characters as possible from command line tools, which in the modern world of TAB-completion seems outdated. It's supposed to schedule stuff, so I thought "schedule"-something, and it only handles initiating sleeps and shutdowns, so I thought, "off". I imagine I'll wind up thinking, "It's 'schedule'-something, right?", and type in my Terminal "sch[TAB]", then pause, then "[TAB][TAB]" to see everything that starts with "sch" pop up, then see "scheduleoff", and write "sched[TAB]", and then that'll work (for me).
 
+## Installation
+### Rust
+If you are a Rust user, you can use `cargo install scheduleoff`.
+### Here
+Pre-built binaries are available for download in the "builds" folder. I do not have an x86 Mac anymore, so I can't tell if the x86 version actually works.
+
+After downloading, 
+  1. Store it in whichever folder you want. It would be easiest to just store it in the folder that your Terminal opens up to by default. You can find this by opening your Terminal and typing `open .`, which will open it in Finder. 
+  2. Rename the file to your liking. I suggest "scheduleoff".
+  3. To run, type `./<executable> [commands]` where `<executable>` is whatever you named that file, and see below in Use for commands.
+  4. You may need to change permissions, using `chmod 744 <executable>` in Terminal in the folder containing the file you downloaded, where `<executable>` is whatever you named that file.
+  5. If you try to run it and Apple won't let you, right-click on it in Finder and click "Open".
+
 ## Use
 `scheduleoff`s intended use case is one-off shutdown or sleep scheduling in the near-term. So the only options are
 
